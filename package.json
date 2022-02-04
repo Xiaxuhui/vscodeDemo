@@ -1,5 +1,5 @@
 {
-  "name": "xia",
+	"name": "xia",
 	"displayName": "Hello WORLD",
 	"description": "test",
 	"version": "0.0.1",
@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:xia.helloWorld"
+		"onCommand:xia.helloWorld"
 	],
-	"main": "./dist/extension.js",
+	"main": "./dist/index.js",
 	"contributes": {
 		"commands": [
 			{
 				"command": "xia.helloWorld",
-				"title": "Hello World"
+				"title": "只愿一生爱一人"
 			}
 		]
 	},
